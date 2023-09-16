@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Ingreso de Usuario</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" text-center>
+  <ion-card>
+    <ion-card-content>
+      <ion-item>
+        <ion-label position="floating">Nombre de Usuario</ion-label>
+        <ion-input [(ngModel)]="username" type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Contraseña</ion-label>
+        <ion-input [(ngModel)]="password" type="password"></ion-input>
+      </ion-item>
+
+      <ion-button color="warning" expand="full" (click)="login()">Ingresar</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-label>
+    <a routerLink="/reset-pass">¿Olvidaste tu contraseña?</a>
+  </ion-label>
+</ion-content>

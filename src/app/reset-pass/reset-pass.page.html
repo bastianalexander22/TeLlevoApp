@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Restablecer Contraseña</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" text-center>
+  <ion-card>
+    <ion-card-content>
+      <ion-item>
+        <ion-label position="floating">Nombre de Usuario</ion-label>
+        <ion-input type="text" aria-label="Nombre de Usuario" ngModel></ion-input>
+      </ion-item>
+
+      <ion-button expand="full" (click)="resetPassword()">RECUPERAR</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-label>
+    <a routerLink="/login">Volver a la página de inicio de sesión</a>
+  </ion-label>
+</ion-content>

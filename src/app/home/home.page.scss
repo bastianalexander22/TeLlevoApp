@@ -1,0 +1,56 @@
+ion-content {
+  --background: #020147; // Color de fondo general
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Asegura que todo el contenido sea visible en la vista */
+}
+
+ion-card {
+  background-color: #f0e000; // Color de fondo de las tarjetas
+  box-shadow: 0px 2px 4px rgba(0, 255, 200, 0.842); // Sombra de las tarjetas
+  border-radius: 10px; // Bordes redondeados de las tarjetas
+  padding: 16px; // Espaciado interior de las tarjetas
+  max-width: 500px; // Ancho máximo de las tarjetas
+  text-align: center; /* Centra el contenido de la tarjeta horizontalmente */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+ion-card-title {
+  font-size: 1.5rem; // Tamaño del título de la tarjeta
+  color: #01000a; // Color del texto del título
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+ion-button {
+  --background: #007bff; // Color de fondo de los botones
+  --color: #ffffff; // Color del texto de los botones
+  --border-radius: 5px; // Bordes redondeados de los botones
+  --padding-top: 10px; // Espaciado superior del botón
+  --padding-bottom: 10px; // Espaciado inferior del botón
+}
+
+/* Estilos adicionales para el botón si es necesario */
+ion-button.ion-color-primary {
+  --background: #007bff; // Color de fondo del botón en estado primario
+}
+
+ion-button.ion-color-primary:hover {
+  --background: #010c18; // Color de fondo del botón al pasar el ratón
+}
+
+
+
+
+    
+  
+  
